@@ -8,10 +8,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject t_waveMonster = ReferenceManager.instance.GetData(UnityEngine.Random.Range(0, 1));
+        int count = 3;
+        for (int i = 0; i <= count; i++)
+        {
+            GameObject t_waveMonster = ReferenceManager.instance.GetData(UnityEngine.Random.Range(0, count));
 
-        FunctionHelper.AddPrefabCheck(t_waveMonster.name, t_waveMonster);
-        GameObject t_go = SpawningPool.CreateFromCache(t_waveMonster.name);
+            FunctionHelper.AddPrefabCheck(t_waveMonster.name, t_waveMonster);
+            GameObject t_go = SpawningPool.CreateFromCache(t_waveMonster.name);
+        }
     }
 
     // Update is called once per frame

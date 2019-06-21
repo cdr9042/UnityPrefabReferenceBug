@@ -227,6 +227,8 @@ MonoBehaviour:
   m_Data:
   - {fileID: 4317290828731630792, guid: 7cc4734890b933d48aff5aff085a1511, type: 3}
   - {fileID: 8838901926973144863, guid: e4249f2bb2a731f48b0b41f7e758123a, type: 3}
+  - {fileID: 1612579046754877470, guid: 83427e177d581cf48bb8d941744cfc85, type: 3}
+  - {fileID: 8452196608355093435, guid: 5afeedb51b3686e489de01c14955b20a, type: 3}
 --- !u!4 &834342671
 Transform:
   m_ObjectHideFlags: 0
