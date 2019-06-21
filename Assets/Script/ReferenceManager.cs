@@ -8,6 +8,7 @@ public class ReferenceManager : MonoBehaviour
     public Dictionary<int, GameObject> dict_Data;
 
     public static ReferenceManager instance;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -18,11 +19,6 @@ public class ReferenceManager : MonoBehaviour
         {
             instance = this;
         }
-        //FunctionHelper.SetRootThenDontDestroy(this.gameObject);
-    }
-
-    private void Start()
-    {
         dict_Data = new Dictionary<int, GameObject>();
         for (int i = 0; i < m_Data.Count; i++)
         {
