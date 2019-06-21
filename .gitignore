@@ -1,0 +1,16 @@
+Library
+Build
+Temp
+obj
+.vs
+
+.DS_Store
+*.csproj
+*.pidb
+*.sln
+*.unityproj
+*.userprefs
+
+spine-csharp.csproj.meta
+spine-csharp.sln.meta
+Hoppi Defender/remote_config_data
